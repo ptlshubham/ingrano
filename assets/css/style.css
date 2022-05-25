@@ -4029,8 +4029,8 @@ a.text-dark:hover {
 }
 .slick-dots li.slick-active button {
   cursor: default;
-  background-color: #fcdb5a;
-  border-color: #fcdb5a
+  background-color: #9c1006;
+  border-color: #9c1006
 }
 .slick-dots button {
   display: block;
@@ -4060,7 +4060,7 @@ a.text-dark:hover {
   width: 15px;
   height: 15px;
   background-color: #fff;
-  border: 2px solid #fcdb5a;
+  border: 2px solid #9c1006;
   -webkit-box-shadow: none;
           box-shadow: none
 }
@@ -4071,12 +4071,12 @@ a.text-dark:hover {
 .irs--round .irs-from,
 .irs--round .irs-single,
 .irs--round .irs-to {
-  background-color: #fcdb5a
+  background-color: #9c1006
 }
 .irs--round .irs-from:before,
 .irs--round .irs-single:before,
 .irs--round .irs-to:before {
-  border-top-color: #fcdb5a
+  border-top-color: #9c1006
 }
 #app {
   min-height: 100vh;
@@ -4153,7 +4153,7 @@ img {
   padding-bottom: .05px!important
 }
 .section--base-bg {
-  background-color: #fcdb5a
+  background-color: #9c1006
 }
 .section--gray-bg {
   background-color: #f9f9f9
@@ -4192,7 +4192,7 @@ img {
 }
 .pagination .page-item.active .page-link {
   background-color: transparent;
-  border-color: #fcdb5a;
+  border-color: #9c1006;
   color: #4f4a37;
   cursor: default
 }
@@ -4246,7 +4246,7 @@ img {
   top: 12%;
   width: 185px;
   height: 185px;
-  background-color: #fcdb5a;
+  background-color: #9c1006;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   line-height: 1;
@@ -4507,7 +4507,7 @@ img {
 }
 .widget--tags a:focus,
 .widget--tags a:hover {
-  background-color: #fcdb5a;
+  background-color: #9c1006;
   color: #333
 }
 .widget--price .widget-title + div {
@@ -4668,7 +4668,7 @@ img {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background-color: #fcd641;
+  background-color: #9c1006;
   opacity: .7;
   -webkit-transition: opacity .3s ease-in-out;
   -o-transition: opacity .3s ease-in-out;
@@ -4968,7 +4968,7 @@ img {
   font-size: 1.4rem
 }
 .feature--style-1 .__item:hover:before {
-  border-color: #fcdb5a
+  border-color: #9c1006
 }
 .feature--style-2 .__item {
   padding-left: 85px
@@ -5233,7 +5233,7 @@ img {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #fcdb5a
+  color: #9c1006
 }
 .product-features {
   counter-reset: num
@@ -5465,7 +5465,7 @@ img {
   margin-top: 40px;
   margin-bottom: 40px;
   padding-left: 20px;
-  border-left: 5px solid #fcdb5a;
+  border-left: 5px solid #9c1006;
   line-height: 1.2;
   font-size: 2rem;
   font-family: 'Times New Roman',Times,serif;
@@ -5483,7 +5483,7 @@ img {
   line-height: .9;
   font-size: 4.6rem;
   font-weight: 800;
-  color: #fcdb5a
+  color: #9c1006
 }
 .section--custom-02 {
   background-image: url(../img/section_02_bg.png);
@@ -5555,7 +5555,7 @@ img {
 }
 .posts .__item--preview .__date-post {
   display: inline-block;
-  background-color: #fcdb5a;
+  background-color: #9c1006;
   min-width: 60px;
   padding: 13px 10px;
   line-height: 1;
@@ -5648,7 +5648,7 @@ img {
 .post-nav__link .ico {
   display: block;
   font-size: 3rem;
-  color: #fcdb5a
+  color: #9c1006
 }
 .post-nav__link .name {
   display: block;
@@ -5785,7 +5785,7 @@ img {
   vertical-align: top;
   line-height: 1;
   font-size: 4.5rem;
-  color: #fcdb5a
+  color: #9c1006
 }
 .company-contacts a {
   text-decoration: underline;
@@ -5816,7 +5816,7 @@ img {
 }
 .section--dark-bg .contact-form .textfield:focus,
 .section--dark-bg .contact-form .textfield:hover {
-  color: #fcdb5a
+  color: #9c1006
 }
 #footer {
   position: relative
@@ -5885,7 +5885,7 @@ img {
 }
 #footer .social-btns a.active,
 #footer .social-btns a:hover {
-  color: #fcdb5a
+  color: #9c1006
 }
 #footer .__copy {
   font-size: 1.3rem
@@ -5935,7 +5935,7 @@ img {
   color: #c4c4c4
 }
 .footer--style-2 address a {
-  color: #fcdb5a
+  color: #9c1006
 }
 .footer--style-2 .social-btns {
   margin-top: 15px
@@ -5989,7 +5989,7 @@ img {
 }
 .footer--style-3 address .__title {
   font-size: 1.2rem;
-  color: #fcdb5a
+  color: #9c1006
 }
 .footer--style-3 address a {
   color: inherit
@@ -6021,7 +6021,7 @@ img {
   color: #c4c4c4
 }
 .footer--style-4 address a {
-  color: #fcdb5a
+  color: #9c1006
 }
 .footer--style-4 .social-btns {
   margin-top: 15px
@@ -6365,7 +6365,7 @@ img {
 .simple-text-block .product-description .__num {
   font-size: 3.6rem;
   font-weight: 900;
-  color: #fcdb5a
+  color: #9c1006
 }
 .simple-text-block .slick-dots {
   position: relative;
@@ -6437,7 +6437,7 @@ img {
 }
 .woocommerce-page .widget--categories .list__item__link:focus,
 .woocommerce-page .widget--categories .list__item__link:hover {
-  color: #fcdb5a
+  color: #9c1006
 }
 .shop-home-page .decor-el--1 {
   top: 62%
@@ -6817,7 +6817,7 @@ img {
 }
 .product-single .tab-nav a.active {
   color: #333;
-  border-color: #fcdb5a
+  border-color: #9c1006
 }
 .product-single .tab-content {
   border-top: 1px solid #e5e5e5
@@ -7761,7 +7761,7 @@ img {
     font-size: 10rem;
     font-family: "Times New Roman";
     font-weight: 700;
-    color: #fcdb5a
+    color: #9c1006
   }
   .review__item__author-position {
     display: inline
@@ -8362,7 +8362,7 @@ img {
     right: -10%;
     width: 65%;
     height: 105%;
-    border: 10px solid #fcdb5a;
+    border: 10px solid #9c1006;
     z-index: -1
   }
   .product-promo--style-1 .__item--second {
