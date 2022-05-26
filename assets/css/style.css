@@ -5819,7 +5819,8 @@ img {
   color: #9c1006
 }
 #footer {
-  position: relative
+  position: relative;
+  
 }
 #footer .footer__item {
   width: 100%;
