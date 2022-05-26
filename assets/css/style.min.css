@@ -4830,6 +4830,7 @@ a.text-dark:hover {
 }
 
 #app #footer {
+    background-color:#9c1006 ;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
@@ -5986,7 +5987,7 @@ img {
 }
 
 .product-preview .__item:hover .__image+.__content {
-    background-color: rgba(74, 96, 153, .9)
+    background-color: #155852
 }
 
 .product-preview--style-1 .__item {
