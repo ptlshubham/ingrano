@@ -4904,7 +4904,7 @@ img {
 }
 
 .section--dark-bg {
-    background-color: #333
+    background-image: url("/assets/img/agro.png");
 }
 
 .desktop .jarallax {
@@ -5456,7 +5456,7 @@ img {
     line-height: 0;
     font-size: 0;
     letter-spacing: -1px;
-    margin: 0 -5px
+    margin: 0 54px;
 }
 
 .social-btns a {
@@ -10787,8 +10787,8 @@ img {
     }
 
     .section {
-        padding-top: 140px;
-        padding-bottom: 140px
+        padding-top: 45px;
+        padding-bottom: 50px;
     }
 
     .comments-list ul {
