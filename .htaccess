@@ -1,0 +1,3 @@
+#ErrorDocument 404 "Page Not Found"
+ErrorDocument 404 /ingrano/404.html 
+

@@ -4904,7 +4904,7 @@ img {
 }
 
 .section--dark-bg {
-    background-image: url("/assets/img/agro.png");
+    background-image: url("/assets/img/about-bg.jpg");
 }
 
 .desktop .jarallax {
@@ -5987,7 +5987,7 @@ img {
 }
 
 .product-preview .__item:hover .__image+.__content {
-    background-color: #c4a98a
+    background-color: #c4a98aad
 }
 
 .product-preview--style-1 .__item {
@@ -7400,7 +7400,7 @@ img {
     flex-direction: column;
     height: 100%;
     padding: 30px;
-    background-color: rgba(51, 51, 51, .9);
+    background-color: #9c10069a;
     text-decoration: none;
     color: #b3b3b3;
     visibility: hidden;

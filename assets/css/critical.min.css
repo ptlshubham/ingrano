@@ -1981,7 +1981,7 @@ a:hover {
     text-shadow: none !important;
     text-transform: uppercase;
     letter-spacing: 0;
-    color: #4f4a37;
+    color: #9c1006;
     border: 2px solid #9c1006;
     -webkit-border-radius: 30px;
     border-radius: 30px;
@@ -2004,7 +2004,7 @@ a:hover {
 
 .custom-btn:focus,
 .custom-btn:hover {
-    color: #4f4a37
+    color: #fff
 }
 
 .custom-btn--tiny {
@@ -2054,13 +2054,13 @@ a:hover {
 
 .custom-btn.custom-btn--style-3 {
     background-color: transparent;
-    color: #fff
+    color: #9c1006
 }
 
 .custom-btn.custom-btn--style-3:focus,
 .custom-btn.custom-btn--style-3:hover {
     background-color: #9c1006;
-    color: #4f4a37
+    color: #fff
 }
 
 .custom-btn.custom-btn--style-4 {
@@ -2108,7 +2108,7 @@ form .textfield {
     width: 100%;
     background: padding-box none;
     border: none;
-    border-bottom: 1px solid #dadada;
+    border-bottom: 2px solid #9c1006;
     padding: 13px 0;
     line-height: 1.2;
     font-size: 1.4rem;
@@ -2129,7 +2129,7 @@ form .textfield {
 }
 
 form .textfield::-webkit-input-placeholder {
-    color: #ccc;
+    color: #9c1006 !important;
     -webkit-transition: color .3s ease-in-out;
     -o-transition: color .3s ease-in-out;
     transition: color .3s ease-in-out
