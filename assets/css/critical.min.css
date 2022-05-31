@@ -1320,7 +1320,22 @@ a:hover {
     font-size: 0;
     text-align: center
 }
-
+.top-bar__navigation li {
+    top: 3px;
+}
+.navigation li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px !important;
+    font-size: 1.3rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: normal;
+}
+.top-bar.is-expanded .top-bar__inner:before, .top-bar.is-expanded .top-bar__inner>div:first-child  {
+    vertical-align: text-top !important;
+}
 .top-bar.is-expanded .top-bar__inner:before {
     content: "";
     width: 0;
@@ -4193,7 +4208,7 @@ label {
     }
 
     .top-bar--style-1 .top-bar__navigation {
-        margin-bottom: 20px
+        margin-bottom: 8px;
     }
 
     .top-bar--style-1 .top-bar__navigation a:not(.custom-btn):after {
