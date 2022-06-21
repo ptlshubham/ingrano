@@ -10871,7 +10871,8 @@ img {
     .section--custom-01 {
         background-image: url(../img/section_01_bg.png);
         background-repeat: no-repeat;
-        background-position: right bottom
+        background-position: right bottom;
+        margin-bottom: 20px;
     }
 
     .section--custom-03 {
