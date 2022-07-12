@@ -1142,7 +1142,7 @@ a:hover {
   z-index: 6
 }
 .top-bar__logo img {
-  height: 90px
+  height: 60px !important;
 }
 .top-bar__navigation-toggler {
   position: absolute;
