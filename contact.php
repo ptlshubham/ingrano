@@ -3,11 +3,11 @@
     echo "we are";
     $name = $_REQUEST['name'];
     $mailForm = $_REQUEST['email'];
-
+    $phone = $_REQUEST['phone'];
     $subject = $_REQUEST['subject'];
-    $message = $_REQUEST['message'];
+    $message = $_REQUEST['body'];
 
-    $mailTo = "keryaritsolutions@gmail.com";
+    $mailTo = "info@ingranoglobal.com";
     $headers = "From: ".$mailForm;
    
     $txt = "You Have Receive New Mail.\n Name : ".$name.".\n Email : ".$mailForm. ".\n Phone : ".$subject. ".\n Message : ".$message;
@@ -21,8 +21,8 @@
   
    
    
-   mail($mailForm,"Thank you very much . ",$body,"From:noreply@hoffae.com")
-
+   mail($mailForm,"Thank you very much . ",$body,"From:noreply@ingrano.com")
+    
 ?>
 
 

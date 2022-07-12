@@ -143,7 +143,15 @@
 			</div>
 		</header>
 		<!-- end header -->
+		<style>
+			.feature--style-1 .__item:hover:before {
+				border-color: #fff !important;
+			}
 
+			.__title:hover {
+				color: #9c1006;
+			}
+		</style>
 		<!-- start start screen -->
 		<div id="start-screen" class="start-screen start-screen--style-1" data-scroll-discover="true">
 			<div id="start-screen__bg" class="start-screen__bg">
@@ -1016,11 +1024,11 @@
 										slides = [
 											{
 												name: "img 1",
-												src: 'assets/img/banners/banner_bg_1.png'
+												src: 'assets/img/banners/banner_bg_2.png'
 											},
 											{
 												name: "img 2",
-												src: 'assets/img/banners/banner_bg_2.png'
+												src: 'assets/img/banners/banner_bg_1.png'
 											},
 											{
 												name: "img 3",
@@ -1031,8 +1039,8 @@
 										dots, a, x;
 
 									slider.vegas({
-										autoplay: false,
-										timer: false,
+										autoplay: true,
+										timer: 6000,
 										preloadImage: true,
 										transition: ['fade', 'zoomOut', 'blur', 'swirlLeft', 'swirlRight'],
 										transitionDuration: 4000,
@@ -1095,33 +1103,6 @@
 			</div>
 
 			<div id="start-screen__content-container" class="start-screen__content-container  text-white">
-				<div class="start-screen__content__item start-screen__content__item--1  align-items-center">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-xl-8">
-								<div class="__name">Organic</div>
-
-								<h2 class="__title text-white">Farming a Healthy land</h2>
-
-								<p class="text-center">
-									Prominent health care starts with healthy food and healthy food starts with healthy
-									harvesting.
-								</p>
-
-								<p class="text-center mt-5 mt-md-10">
-									<span class="d-none d-sm-block"><a
-											class="custom-btn custom-btn--big custom-btn--style-3"
-											href="products.html">View</a></span>
-
-									<span class="d-block d-sm-none"><a
-											class="custom-btn custom-btn--small custom-btn--style-3"
-											href="products.html">View</a></span>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
 				<div class="start-screen__content__item start-screen__content__item--2  align-items-center">
 					<div class="container">
 						<div class="row align-items-center">
@@ -1149,14 +1130,42 @@
 						</div>
 					</div>
 				</div>
+				<div class="start-screen__content__item start-screen__content__item--1  align-items-center">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-xl-8">
+								<div class="__name">Organic</div>
+
+								<h2 class="__title text-white">Farming a Healthy land</h2>
+
+								<p class="text-center">
+									Prominent health care starts with healthy food and healthy food starts with healthy
+									harvesting.
+								</p>
+
+								<p class="text-center mt-5 mt-md-10">
+									<span class="d-none d-sm-block"><a
+											class="custom-btn custom-btn--big custom-btn--style-3"
+											href="products.html">View</a></span>
+
+									<span class="d-block d-sm-none"><a
+											class="custom-btn custom-btn--small custom-btn--style-3"
+											href="products.html">View</a></span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 
 				<div class="start-screen__content__item start-screen__content__item--3  align-items-center">
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-12 col-md-auto col-xl-8">
-								<div class="__name">AgRO</div>
+								<!-- <div class="__name">AgRO</div> -->
 
-								<h2 class="__title text-white">Live<span style="color: #9c1006">stock</span></h2>
+								<h2 class="__title text-white" style="font-size: 110px; text-align:center;">Herbs & <span style="color: #9c1006">Spices</span></h2>
 
 								<p class="text-center mt-5 mt-md-10">
 									<span class="d-none d-sm-block"><a
@@ -1600,50 +1609,32 @@
 			</section>
 			<!-- end section -->
 
-			<!-- start section -
-			<section class="section section--review  lazy" data-src="assets/img/review_bg_1.png">
+			<!-- start section - -->
+			<section class="section section--review  lazy"
+				style="background-image:url(assets/img/about-bg.jpg) ; margin-bottom: 50px;">
 				<div class="container">
 					<div class="section-heading section-heading--center" data-aos="fade">
-						<h2 class="__title">People says <span>about agro</span></h2>
+						<h2 class="__title">History full  <span>of spice</span></h2>
 
-						<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum
-							which looks reasonable.</p>
 					</div>
 
-					<!-- start review --
+					<!-- start review  -->
 					<div class="review review--slider">
 						<div class="js-slick"
 							data-slick='{"autoplay": true, "arrows": false, "dots": true, "speed": 1000}'>
-							<!-- start item 
+							<!-- start item  -->
 							<div class="review__item">
 								<div class="review__item__text">
-									<p>
-										<i>Latin words, combined with a handful of model sentence structures, to
-											generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is
-											therefore always free from repetition injected humour, or non-characteristic
-											words etc. Contrary to popular belief, Lorem Ipsum is not simply random
-											text. It has roots in a piece of classical Latin literature from 45 BC,
-											making it over</i>
+									<p  style="text-align:justify;">
+										<i>India has always been considered as the ‘Spice bowl of the world’ because everyone, the Arabians, the Egyptians, the Romans, Chinese, Britishers and the Portuguese all invaded India because to take advantage of the rich natural wealth and Indian spices. India always had the advantage of having rich spices which gain the attention of many other countries.</i>
 									</p>
 								</div>
 
-								<div class="review__item__author  d-table">
-									<div class="d-table-cell align-middle">
-										<div class="review__item__author-image">
-											<img class="circled" src="assets/img/ava.png" alt="ava" />
-										</div>
-									</div>
-
-									<div class="d-table-cell align-middle">
-										<span class="review__item__author-name"><strong>Terens Smith</strong></span>
-										<span class="review__item__author-position">/CEO AntalAgro</span>
-									</div>
-								</div>
 							</div>
 							<!-- end item -->
 
-							<!-- start item 
-							<div class="review__item">
+							<!-- start item  -->
+							<!-- <div class="review__item">
 								<div class="review__item__text">
 									<p>
 										<i>Latin words, combined with a handful of model sentence structures, to
@@ -1667,11 +1658,11 @@
 										<span class="review__item__author-position">/CEO AntalAgro</span>
 									</div>
 								</div>
-							</div>
-							<!-- end item 
+							</div> -->
+
 						</div>
 					</div>
-					<!-- start review 
+
 				</div>
 			</section>
 			<!-- end section -->
@@ -1724,11 +1715,12 @@
 													<h2>conventional <span>products</span></h2>
 
 													<p>
-														In the early 1900s, Sir Albert Howard, F.H. King, Rudolf
-														Steiner, and others believed that animal manures (often made
-														into compost), cover crops, crop rotation, and biological pest
-														control were the key components of organic agriculture. That is
-														when the concept of Organic Farming was established.
+														Traditional farming practices are based on indigenous knowledge
+														and experience developed over time and remain popular even
+														today. Practices that are common in traditional agriculture
+														include agroforestry, intercropping, crop rotation, cover
+														cropping, organic composting, integrated crop-animal farming,
+														shifting cultivation, and slash-and-burn farming.
 													</p>
 
 													<p>
@@ -2034,6 +2026,7 @@
 								<a href="#" style="color:#fff;"><i class="fontello-twitter"></i></a>
 								<a href="#" style="color:#fff;"><i class="fontello-facebook"></i></a>
 								<a href="#" style="color:#fff;"><i class="fontello-linkedin-squared"></i></a>
+								<a href="#" style="color:#fff;"><i class="fontello-instagram"></i></a>
 							</div>
 						</div>
 					</div>
